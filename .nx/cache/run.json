@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx build @fastcampus/themes",
-    "startTime": "2024-01-18T13:14:27.966Z",
-    "endTime": "2024-01-18T13:14:34.629Z",
+    "command": "nx build @fastcampus/react-components-layout",
+    "startTime": "2024-01-18T14:16:04.311Z",
+    "endTime": "2024-01-18T14:16:17.520Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "@fastcampus/esbuild-config:build",
       "target": "build",
       "projectName": "@fastcampus/esbuild-config",
-      "hash": "6693314951967901160",
-      "startTime": "2024-01-18T13:14:27.971Z",
-      "endTime": "2024-01-18T13:14:29.158Z",
+      "hash": "2555836223238703299",
+      "startTime": "2024-01-18T14:16:04.316Z",
+      "endTime": "2024-01-18T14:16:05.546Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0
@@ -21,9 +21,20 @@
       "taskId": "@fastcampus/themes:build",
       "target": "build",
       "projectName": "@fastcampus/themes",
-      "hash": "10743699785887443297",
-      "startTime": "2024-01-18T13:14:29.160Z",
-      "endTime": "2024-01-18T13:14:34.629Z",
+      "hash": "1312208265557811708",
+      "startTime": "2024-01-18T14:16:05.547Z",
+      "endTime": "2024-01-18T14:16:11.577Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@fastcampus/react-components-layout:build",
+      "target": "build",
+      "projectName": "@fastcampus/react-components-layout",
+      "hash": "14880968040111547386",
+      "startTime": "2024-01-18T14:16:11.579Z",
+      "endTime": "2024-01-18T14:16:17.520Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0

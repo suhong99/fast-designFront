@@ -132,7 +132,7 @@
       },
       {
         "file": "yarn.lock",
-        "hash": "84596508103250819"
+        "hash": "666847605514056589"
       }
     ],
     "projectFileMap": {
@@ -148,6 +148,33 @@
         {
           "file": "packages/esbuild-config/package.json",
           "hash": "10957064697232862624"
+        }
+      ],
+      "@fastcampus/react-components-layout": [
+        {
+          "file": "packages/react/components/layout/build.js",
+          "hash": "12502213574713388623"
+        },
+        {
+          "file": "packages/react/components/layout/package.json",
+          "hash": "14933874523198085560",
+          "deps": [
+            "@fastcampus/esbuild-config",
+            "@fastcampus/themes",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/react/components/layout/src/Block.tsx",
+          "hash": "3027644874439795714"
+        },
+        {
+          "file": "packages/react/components/layout/src/index.ts",
+          "hash": "12541406279628729372"
+        },
+        {
+          "file": "packages/react/components/layout/tsconfig.json",
+          "hash": "10344179325425879767"
         }
       ],
       "@fastcampus/themes": [
