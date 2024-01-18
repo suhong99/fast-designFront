@@ -1,14 +1,15 @@
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { ThemeProvider } from '@emotion/react';
-import { vars, classes } from '@fastcampus/themes';
+import { vars } from '@fastcampus/themes';
 import styled from '@emotion/styled';
 
 function App() {
   const theme = {
     colors: vars.colors.$static.light,
   };
+
+  // console.log(themes);
 
   return (
     <ThemeProvider theme={theme}>
@@ -26,6 +27,7 @@ const View = () => (
       <Text>
         font color is {vars.colors.$static.light.red[500]} {vars.box.radii.base}
       </Text>
+      <div className="heading3xl">되나</div>
       <a
         className="App-link"
         href="https://reactjs.org"
