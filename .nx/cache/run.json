@@ -1,29 +1,18 @@
 {
   "run": {
-    "command": "nx build test",
-    "startTime": "2024-01-18T07:25:23.322Z",
-    "endTime": "2024-01-18T07:25:36.558Z",
+    "command": "nx storybook @fastcampus/storybook",
+    "startTime": "2024-01-19T00:35:55.614Z",
+    "endTime": "2024-01-19T01:10:29.747Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "@fastcampus/themes:build",
-      "target": "build",
-      "projectName": "@fastcampus/themes",
-      "hash": "14094513931126341744",
-      "startTime": "2024-01-18T07:25:23.327Z",
-      "endTime": "2024-01-18T07:25:29.794Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 0
-    },
-    {
-      "taskId": "test:build",
-      "target": "build",
-      "projectName": "test",
-      "hash": "7458208605851354229",
-      "startTime": "2024-01-18T07:25:29.796Z",
-      "endTime": "2024-01-18T07:25:36.558Z",
+      "taskId": "@fastcampus/storybook:storybook",
+      "target": "storybook",
+      "projectName": "@fastcampus/storybook",
+      "hash": "13363081097808795985",
+      "startTime": "2024-01-19T00:35:55.618Z",
+      "endTime": "2024-01-19T01:10:29.746Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1
