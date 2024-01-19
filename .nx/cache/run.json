@@ -1,43 +1,21 @@
 {
   "run": {
-    "command": "nx build @fastcampus/react-components-layout",
-    "startTime": "2024-01-18T14:16:04.311Z",
-    "endTime": "2024-01-18T14:16:17.520Z",
+    "command": "nx storybook @fastcampus/storybook",
+    "startTime": "2024-01-19T00:35:55.614Z",
+    "endTime": "2024-01-19T01:10:29.747Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "@fastcampus/esbuild-config:build",
-      "target": "build",
-      "projectName": "@fastcampus/esbuild-config",
-      "hash": "2555836223238703299",
-      "startTime": "2024-01-18T14:16:04.316Z",
-      "endTime": "2024-01-18T14:16:05.546Z",
+      "taskId": "@fastcampus/storybook:storybook",
+      "target": "storybook",
+      "projectName": "@fastcampus/storybook",
+      "hash": "13363081097808795985",
+      "startTime": "2024-01-19T00:35:55.618Z",
+      "endTime": "2024-01-19T01:10:29.746Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 0
-    },
-    {
-      "taskId": "@fastcampus/themes:build",
-      "target": "build",
-      "projectName": "@fastcampus/themes",
-      "hash": "1312208265557811708",
-      "startTime": "2024-01-18T14:16:05.547Z",
-      "endTime": "2024-01-18T14:16:11.577Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 0
-    },
-    {
-      "taskId": "@fastcampus/react-components-layout:build",
-      "target": "build",
-      "projectName": "@fastcampus/react-components-layout",
-      "hash": "14880968040111547386",
-      "startTime": "2024-01-18T14:16:11.579Z",
-      "endTime": "2024-01-18T14:16:17.520Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 0
+      "status": 1
     }
   ]
 }
