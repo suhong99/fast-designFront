@@ -2,6 +2,7 @@
   "name": "@fastcampus/storybook",
   "packageManager": "yarn@4.0.2",
   "devDependencies": {
+    "@fastcampus/react-components-button": "workspace:^",
     "@fastcampus/react-components-layout": "workspace:^",
     "@fastcampus/themes": "workspace:^",
     "@storybook/addon-essentials": "^7.6.10",
@@ -22,5 +23,8 @@
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@fastcampus/react-hooks-button": "workspace:^"
   }
 }
