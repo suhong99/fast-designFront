@@ -1,8 +1,8 @@
 {
   "run": {
     "command": "nx storybook @fastcampus/storybook",
-    "startTime": "2024-01-19T11:03:57.779Z",
-    "endTime": "2024-01-19T12:58:47.142Z",
+    "startTime": "2024-01-19T18:29:57.323Z",
+    "endTime": "2024-01-19T18:31:53.528Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "@fastcampus/storybook:storybook",
       "target": "storybook",
       "projectName": "@fastcampus/storybook",
-      "hash": "11534833874570401097",
-      "startTime": "2024-01-19T11:03:57.785Z",
-      "endTime": "2024-01-19T12:58:47.141Z",
+      "hash": "17120662081046499754",
+      "startTime": "2024-01-19T18:29:57.328Z",
+      "endTime": "2024-01-19T18:31:53.528Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1
