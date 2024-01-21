@@ -33,9 +33,9 @@ export const ButtonStory = {
     size: "lg",
     children: "Button",
     variant: "outline",
-    isDisabled: false,
-    isLoading: false,
-    leftIcon: "😀",
+    isdisabled: "false",
+    isloading: "false",
+    lefticon: "😀",
   },
 };
 

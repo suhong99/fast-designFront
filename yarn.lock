@@ -2200,6 +2200,32 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@fastcampus/react-components-accordion@workspace:packages/react/components/accordion":
+  version: 0.0.0-use.local
+  resolution: "@fastcampus/react-components-accordion@workspace:packages/react/components/accordion"
+  dependencies:
+    "@fastcampus/esbuild-config": "workspace:^"
+    "@fastcampus/react-hooks-button": "workspace:^"
+    "@fastcampus/themes": "workspace:^"
+    "@types/react": "npm:^18.2.48"
+    "@types/react-dom": "npm:^18.2.18"
+    "@vanilla-extract/css": "npm:^1.14.0"
+    "@vanilla-extract/dynamic": "npm:^2.1.0"
+    "@vanilla-extract/esbuild-plugin": "npm:^2.3.2"
+    "@vanilla-extract/recipes": "npm:^0.5.1"
+    "@vanilla-extract/sprinkles": "npm:^1.6.1"
+    autoprefixer: "npm:^10.4.15"
+    clsx: "npm:^2.1.0"
+    postcss: "npm:^8.4.29"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.3.3"
+  peerDependencies:
+    "@fastcampus/themes": "workspace:^"
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
 "@fastcampus/react-components-button@workspace:^, @fastcampus/react-components-button@workspace:packages/react/components/button":
   version: 0.0.0-use.local
   resolution: "@fastcampus/react-components-button@workspace:packages/react/components/button"
