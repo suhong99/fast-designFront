@@ -180,6 +180,66 @@
         "tags": []
       }
     },
+    "@fastcampus/react-components-input": {
+      "name": "@fastcampus/react-components-input",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/components/input",
+        "sourceRoot": "packages/react/components/input",
+        "name": "@fastcampus/react-components-input",
+        "projectType": "library",
+        "targets": {
+          "build": {
+            "dependsOn": [
+              "^build"
+            ],
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "configurations": {}
+          },
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
     "@fastcampus/react-hooks-button": {
       "name": "@fastcampus/react-hooks-button",
       "type": "lib",
@@ -247,6 +307,66 @@
         "root": "packages/react/hooks/toggle",
         "sourceRoot": "packages/react/hooks/toggle",
         "name": "@fastcampus/react-hooks-toggle",
+        "projectType": "library",
+        "targets": {
+          "build": {
+            "dependsOn": [
+              "^build"
+            ],
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "configurations": {}
+          },
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
+    "@fastcampus/react-hooks-input": {
+      "name": "@fastcampus/react-hooks-input",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/hooks/input",
+        "sourceRoot": "packages/react/hooks/input",
+        "name": "@fastcampus/react-hooks-input",
         "projectType": "library",
         "targets": {
           "build": {
@@ -11618,6 +11738,28 @@
         "type": "static"
       }
     ],
+    "@fastcampus/react-components-input": [
+      {
+        "source": "@fastcampus/react-components-input",
+        "target": "@fastcampus/react-hooks-input",
+        "type": "static"
+      },
+      {
+        "source": "@fastcampus/react-components-input",
+        "target": "@fastcampus/esbuild-config",
+        "type": "static"
+      },
+      {
+        "source": "@fastcampus/react-components-input",
+        "target": "@fastcampus/themes",
+        "type": "static"
+      },
+      {
+        "source": "@fastcampus/react-components-input",
+        "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
     "@fastcampus/react-hooks-button": [
       {
         "source": "@fastcampus/react-hooks-button",
@@ -11647,11 +11789,28 @@
         "type": "static"
       }
     ],
+    "@fastcampus/react-hooks-input": [
+      {
+        "source": "@fastcampus/react-hooks-input",
+        "target": "@fastcampus/esbuild-config",
+        "type": "static"
+      },
+      {
+        "source": "@fastcampus/react-hooks-input",
+        "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
     "@fastcampus/esbuild-config": [],
     "@fastcampus/storybook": [
       {
         "source": "@fastcampus/storybook",
         "target": "@fastcampus/react-components-accordion",
+        "type": "static"
+      },
+      {
+        "source": "@fastcampus/storybook",
+        "target": "@fastcampus/react-components-input",
         "type": "static"
       },
       {
