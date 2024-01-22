@@ -180,6 +180,66 @@
         "tags": []
       }
     },
+    "@fastcampus/react-components-select": {
+      "name": "@fastcampus/react-components-select",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/components/select",
+        "sourceRoot": "packages/react/components/select",
+        "name": "@fastcampus/react-components-select",
+        "projectType": "library",
+        "targets": {
+          "build": {
+            "dependsOn": [
+              "^build"
+            ],
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "configurations": {}
+          },
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
     "@fastcampus/react-components-input": {
       "name": "@fastcampus/react-components-input",
       "type": "lib",
@@ -240,6 +300,66 @@
         "tags": []
       }
     },
+    "@fastcampus/react-components-toast": {
+      "name": "@fastcampus/react-components-toast",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/components/toast",
+        "sourceRoot": "packages/react/components/toast",
+        "name": "@fastcampus/react-components-toast",
+        "projectType": "library",
+        "targets": {
+          "build": {
+            "dependsOn": [
+              "^build"
+            ],
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "configurations": {}
+          },
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
     "@fastcampus/react-hooks-button": {
       "name": "@fastcampus/react-hooks-button",
       "type": "lib",
@@ -247,6 +367,66 @@
         "root": "packages/react/hooks/button",
         "sourceRoot": "packages/react/hooks/button",
         "name": "@fastcampus/react-hooks-button",
+        "projectType": "library",
+        "targets": {
+          "build": {
+            "dependsOn": [
+              "^build"
+            ],
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "configurations": {}
+          },
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
+    "@fastcampus/react-hooks-select": {
+      "name": "@fastcampus/react-hooks-select",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/hooks/select",
+        "sourceRoot": "packages/react/hooks/select",
+        "name": "@fastcampus/react-hooks-select",
         "projectType": "library",
         "targets": {
           "build": {
@@ -11738,6 +11918,28 @@
         "type": "static"
       }
     ],
+    "@fastcampus/react-components-select": [
+      {
+        "source": "@fastcampus/react-components-select",
+        "target": "@fastcampus/react-hooks-select",
+        "type": "static"
+      },
+      {
+        "source": "@fastcampus/react-components-select",
+        "target": "@fastcampus/esbuild-config",
+        "type": "static"
+      },
+      {
+        "source": "@fastcampus/react-components-select",
+        "target": "@fastcampus/themes",
+        "type": "static"
+      },
+      {
+        "source": "@fastcampus/react-components-select",
+        "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
     "@fastcampus/react-components-input": [
       {
         "source": "@fastcampus/react-components-input",
@@ -11760,6 +11962,23 @@
         "type": "static"
       }
     ],
+    "@fastcampus/react-components-toast": [
+      {
+        "source": "@fastcampus/react-components-toast",
+        "target": "@fastcampus/esbuild-config",
+        "type": "static"
+      },
+      {
+        "source": "@fastcampus/react-components-toast",
+        "target": "@fastcampus/themes",
+        "type": "static"
+      },
+      {
+        "source": "@fastcampus/react-components-toast",
+        "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
     "@fastcampus/react-hooks-button": [
       {
         "source": "@fastcampus/react-hooks-button",
@@ -11773,6 +11992,18 @@
       },
       {
         "source": "@fastcampus/react-hooks-button",
+        "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
+    "@fastcampus/react-hooks-select": [
+      {
+        "source": "@fastcampus/react-hooks-select",
+        "target": "@fastcampus/esbuild-config",
+        "type": "static"
+      },
+      {
+        "source": "@fastcampus/react-hooks-select",
         "target": "npm:typescript",
         "type": "static"
       }
@@ -11811,6 +12042,16 @@
       {
         "source": "@fastcampus/storybook",
         "target": "@fastcampus/react-components-input",
+        "type": "static"
+      },
+      {
+        "source": "@fastcampus/storybook",
+        "target": "@fastcampus/react-components-select",
+        "type": "static"
+      },
+      {
+        "source": "@fastcampus/storybook",
+        "target": "@fastcampus/react-components-toast",
         "type": "static"
       },
       {
