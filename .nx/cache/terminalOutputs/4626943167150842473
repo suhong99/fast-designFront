@@ -1,0 +1,28 @@
+[1m@storybook/cli v7.6.10[22m[0m[0m
+[0m[0m
+[31mError: Your application tried to access storybook-addon-ally, but it isn't declared in your dependencies; this makes the require call ambiguous and unsound.[39m
+[31m[39m
+[31mRequired package: storybook-addon-ally (via "storybook-addon-ally\package.json")[39m
+[31mRequired by: .\.storybook\[39m
+[31m[39m
+[31mRequire stack:[39m
+[31m- .\.storybook\main.js[39m
+[31m- C:\Users\topic\AppData\Local\Yarn\Berry\cache\@storybook-core-common-npm-7.6.10-7f43bbe375-10c0.zip\node_modules\@storybook\core-common\dist\index.js[39m
+[31m- C:\Users\topic\AppData\Local\Yarn\Berry\cache\@storybook-telemetry-npm-7.6.10-70552baacb-10c0.zip\node_modules\@storybook\telemetry\dist\index.js[39m
+[31m- C:\Users\topic\AppData\Local\Yarn\Berry\cache\@storybook-cli-npm-7.6.10-af9955952e-10c0.zip\node_modules\@storybook\cli\dist\generate.js[39m
+[31m- C:\Users\topic\AppData\Local\Yarn\Berry\cache\@storybook-cli-npm-7.6.10-af9955952e-10c0.zip\node_modules\@storybook\cli\bin\index.js[39m
+[31m- C:\Users\topic\AppData\Local\Yarn\Berry\cache\storybook-npm-7.6.10-83eecd3199-10c0.zip\node_modules\storybook\index.js[39m
+    at require$$0.Module._resolveFilename (C:\gitProject\fastcampus-front-projects\.pnp.cjs:23354:13)
+    at Function.resolve (node:internal/modules/helpers:136:19)
+    at getAbsolutePath (c:\gitProject\fastcampus-front-projects\services\storybook\.storybook\main.js:8:26)
+    at Object.<anonymous> (c:\gitProject\fastcampus-front-projects\services\storybook\.storybook\main.js:23:5)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._compile (C:\gitProject\fastcampus-front-projects\.yarn\__virtual__\esbuild-register-virtual-628799d1d3\3\Users\topic\AppData\Local\Yarn\Berry\cache\esbuild-register-npm-3.5.0-d823f64ce0-10c0.zip\node_modules\esbuild-register\dist\node.js:2258:26)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at require$$0.Module._extensions..js (C:\gitProject\fastcampus-front-projects\.pnp.cjs:23397:33)
+    at Object.newLoader (C:\gitProject\fastcampus-front-projects\.yarn\__virtual__\esbuild-register-virtual-628799d1d3\3\Users\topic\AppData\Local\Yarn\Berry\cache\esbuild-register-npm-3.5.0-d823f64ce0-10c0.zip\node_modules\esbuild-register\dist\node.js:2262:9)
+    at extensions..js (C:\gitProject\fastcampus-front-projects\.yarn\__virtual__\esbuild-register-virtual-628799d1d3\3\Users\topic\AppData\Local\Yarn\Berry\cache\esbuild-register-npm-3.5.0-d823f64ce0-10c0.zip\node_modules\esbuild-register\dist\node.js:4838:24)
+
+WARN Broken build, fix the error above.
+WARN You may need to refresh the browser.
+
