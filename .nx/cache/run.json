@@ -1,21 +1,153 @@
 {
   "run": {
-    "command": "nx storybook @fastcampus/storybook",
-    "startTime": "2024-01-22T16:27:21.456Z",
-    "endTime": "2024-01-22T16:27:25.008Z",
+    "command": "nx affected -t test --parallel=3",
+    "startTime": "2024-01-23T15:58:41.825Z",
+    "endTime": "2024-01-23T15:59:17.427Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "@fastcampus/storybook:storybook",
-      "target": "storybook",
-      "projectName": "@fastcampus/storybook",
-      "hash": "15430986035676158129",
-      "startTime": "2024-01-22T16:27:21.460Z",
-      "endTime": "2024-01-22T16:27:25.008Z",
+      "taskId": "@fastcampus/esbuild-config:build",
+      "target": "build",
+      "projectName": "@fastcampus/esbuild-config",
+      "hash": "10179145795760340817",
+      "startTime": "2024-01-23T15:58:41.829Z",
+      "endTime": "2024-01-23T15:58:43.533Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 1
+      "status": 0
+    },
+    {
+      "taskId": "@fastcampus/themes:build",
+      "target": "build",
+      "projectName": "@fastcampus/themes",
+      "hash": "2635801625218896786",
+      "startTime": "2024-01-23T15:58:43.537Z",
+      "endTime": "2024-01-23T15:58:51.319Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@fastcampus/react-hooks-toggle:build",
+      "target": "build",
+      "projectName": "@fastcampus/react-hooks-toggle",
+      "hash": "12733658938544653592",
+      "startTime": "2024-01-23T15:58:43.537Z",
+      "endTime": "2024-01-23T15:58:51.717Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@fastcampus/react-hooks-input:build",
+      "target": "build",
+      "projectName": "@fastcampus/react-hooks-input",
+      "hash": "13623380951134816527",
+      "startTime": "2024-01-23T15:58:43.537Z",
+      "endTime": "2024-01-23T15:58:51.743Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@fastcampus/react-hooks-select:build",
+      "target": "build",
+      "projectName": "@fastcampus/react-hooks-select",
+      "hash": "12215132060100533130",
+      "startTime": "2024-01-23T15:58:51.324Z",
+      "endTime": "2024-01-23T15:58:58.145Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@fastcampus/react-hooks-button:build",
+      "target": "build",
+      "projectName": "@fastcampus/react-hooks-button",
+      "hash": "4445646643607512249",
+      "startTime": "2024-01-23T15:58:51.721Z",
+      "endTime": "2024-01-23T15:58:58.680Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@fastcampus/react-components-toast:build",
+      "target": "build",
+      "projectName": "@fastcampus/react-components-toast",
+      "hash": "17187375798827788030",
+      "startTime": "2024-01-23T15:58:51.747Z",
+      "endTime": "2024-01-23T15:58:59.288Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@fastcampus/react-components-layout:build",
+      "target": "build",
+      "projectName": "@fastcampus/react-components-layout",
+      "hash": "9847492448665461840",
+      "startTime": "2024-01-23T15:58:58.149Z",
+      "endTime": "2024-01-23T15:59:05.767Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@fastcampus/react-components-input:build",
+      "target": "build",
+      "projectName": "@fastcampus/react-components-input",
+      "hash": "5890218541046909054",
+      "startTime": "2024-01-23T15:58:58.685Z",
+      "endTime": "2024-01-23T15:59:06.131Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@fastcampus/react-components-select:build",
+      "target": "build",
+      "projectName": "@fastcampus/react-components-select",
+      "hash": "6726546118193737613",
+      "startTime": "2024-01-23T15:58:59.290Z",
+      "endTime": "2024-01-23T15:59:06.642Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@fastcampus/react-components-accordion:build",
+      "target": "build",
+      "projectName": "@fastcampus/react-components-accordion",
+      "hash": "1137496773931355225",
+      "startTime": "2024-01-23T15:59:05.769Z",
+      "endTime": "2024-01-23T15:59:12.819Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@fastcampus/react-components-button:build",
+      "target": "build",
+      "projectName": "@fastcampus/react-components-button",
+      "hash": "10848366119719971531",
+      "startTime": "2024-01-23T15:59:06.133Z",
+      "endTime": "2024-01-23T15:59:13.185Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@fastcampus/storybook:test",
+      "target": "test",
+      "projectName": "@fastcampus/storybook",
+      "hash": "4227072862083919046",
+      "startTime": "2024-01-23T15:59:13.188Z",
+      "endTime": "2024-01-23T15:59:17.426Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
     }
   ]
 }

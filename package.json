@@ -6,6 +6,8 @@
     "services/**/*"
   ],
   "scripts": {
+    "affected:build": "nx affected -t build",
+    "affected:test": "nx affected -t test",
     "build": "nx build",
     "graph": "nx run-many --target=build --graph",
     "dev:all": "yarn dev:storybook & yarn dev:packages",
