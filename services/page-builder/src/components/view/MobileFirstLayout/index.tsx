@@ -1,6 +1,6 @@
 type Props = {
   children: React.ReactNode;
-};
+}
 
 export const MobileFirstLayout = ({ children }: Props) => {
   return (
