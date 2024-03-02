@@ -1,8 +1,8 @@
 import { Box } from "@fastcampus/react-components-layout";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import 'swiper/css';
+import "swiper/css";
 import { Autoplay } from "swiper/modules";
 import { vars } from "@fastcampus/themes";
 import { convertSpacingRemToPx } from "@/src/utils/size";
@@ -10,7 +10,7 @@ import { convertSpacingRemToPx } from "@/src/utils/size";
 export type Image = {
   imageUrl: string;
   alt: string;
-}
+};
 
 type Props = {
   images: Image[];
@@ -22,7 +22,10 @@ type Props = {
   };
 };
 
-export const ImageSliderSlice: React.FC<Props> = ({ images, sliceStyle }: Props) => {
+export const ImageSliderSlice: React.FC<Props> = ({
+  images,
+  sliceStyle,
+}: Props) => {
   const {
     backgroundColor = "transparent",
     imageItemWidth = 280,

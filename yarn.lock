@@ -2233,7 +2233,7 @@ __metadata:
     postcss: "npm:^8"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
-    swiper: "npm:^11.0.7"
+    swiper: "npm:^10.3.1"
     tailwindcss: "npm:^3.3.0"
     typescript: "npm:^5.3.3"
   languageName: unknown
@@ -9950,6 +9950,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"happy-dom@npm:^12.5.0":
+  version: 12.10.3
+  resolution: "happy-dom@npm:12.10.3"
+  dependencies:
+    css.escape: "npm:^1.5.1"
+    entities: "npm:^4.5.0"
+    iconv-lite: "npm:^0.6.3"
+    webidl-conversions: "npm:^7.0.0"
+    whatwg-encoding: "npm:^2.0.0"
+    whatwg-mimetype: "npm:^3.0.0"
+  checksum: fbf8647e17c4af5c166d7c4b6963f4bbc9d1c279e94a4c77234b1fecca98c59989b894c7b186f5107e1062d40ffd84f12350b757f51330a5fc1c5228eb199517
+  languageName: node
+  linkType: hard
+
 "happy-dom@npm:^13.2.1":
   version: 13.2.1
   resolution: "happy-dom@npm:13.2.1"
@@ -10304,7 +10318,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"iconv-lite@npm:0.6, iconv-lite@npm:^0.6.2":
+"iconv-lite@npm:0.6, iconv-lite@npm:0.6.3, iconv-lite@npm:^0.6.2, iconv-lite@npm:^0.6.3":
   version: 0.6.3
   resolution: "iconv-lite@npm:0.6.3"
   dependencies:
@@ -14373,7 +14387,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.2.0, react@npm:^18, react@npm:^18.2.0":
+"react@npm:18.2.0, react@npm:^18, react@npm:^18.0.2, react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
@@ -15776,10 +15790,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swiper@npm:^11.0.7":
-  version: 11.0.7
-  resolution: "swiper@npm:11.0.7"
-  checksum: d27b8c3b5deccde730317c2fe868350fad039e9776c8c6dfd11a89d9e732a66c1292292ca635141a7e0bbb363fcac1291c9fd716bf7a8e3b85d320e58ff94eba
+"swiper@npm:^10.3.1":
+  version: 10.3.1
+  resolution: "swiper@npm:10.3.1"
+  checksum: 1e9ad5480cbf451d99fab280553d5105eb314f381d98610771f0808cac03962d87967a190696686d62bce8e4ebcbf34962c369f9d502b34fef1582ced17f6f98
   languageName: node
   linkType: hard
 
@@ -17023,6 +17037,15 @@ __metadata:
   version: 0.6.1
   resolution: "webpack-virtual-modules@npm:0.6.1"
   checksum: 696bdc1acf3806374bdeb4b9b9856b79ee70b31e92f325dfab9b8c8c7e14bb6ddffa9f895a214770c4fb8fea45a21f34ca64310f74e877292a90f4a9966c9c2f
+  languageName: node
+  linkType: hard
+
+"whatwg-encoding@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "whatwg-encoding@npm:2.0.0"
+  dependencies:
+    iconv-lite: "npm:0.6.3"
+  checksum: 91b90a49f312dc751496fd23a7e68981e62f33afe938b97281ad766235c4872fc4e66319f925c5e9001502b3040dd25a33b02a9c693b73a4cbbfdc4ad10c3e3e
   languageName: node
   linkType: hard
 
