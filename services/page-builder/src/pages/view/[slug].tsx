@@ -1,14 +1,71 @@
 import { MobileFirstLayout } from "@/src/components/view/MobileFirstLayout";
+import { AccordionSlice } from "@/src/components/view/slices/Accordion";
+import { ImageSlice } from "@/src/components/view/slices/Image";
+import { ImageSliderSectionSlice } from "@/src/components/view/slices/ImageSliderSection";
+import { SpacingSlice } from "@/src/components/view/slices/Spacing";
+import { TextSlice } from "@/src/components/view/slices/Text";
+import { useMemo } from "react";
 
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from "next";
-import { useViewSchemaSlices } from "@/src/hooks/useViewSchemaSlices";
-import { ViewSchemaProps } from "@/src/utils/validation/schema/types";
-import { getViewDetail } from "@/src/apis/worker/getViewDetail";
+import { CDN_BASE_URL } from "@/src/constants";
+import {
+  MetadataSlice,
+  MetadataSliceProps,
+} from "@/src/components/view/slices/Metadata";
+
+type Schema = {
+  id: string;
+  slug: string;
+  metadata?: MetadataSliceProps;
+  slices: {
+    sliceName:
+      | "TextSlice"
+      | "ImageSlice"
+      | "SpacingSlice"
+      | "ImageSliderSectionSlice"
+      | "AccordionSlice";
+    data: any;
+  }[];
+};
 
 const ViewPage = ({
   jsonSchema,
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
-  const slices = useViewSchemaSlices(jsonSchema);
+  const slices = useMemo(() => {
+    const sliceList = [] as React.ReactNode[];
+
+    if (jsonSchema.metadata) {
+      sliceList.push(<MetadataSlice {...jsonSchema.metadata} />);
+    }
+
+    jsonSchema.slices.forEach(({ sliceName, data }) => {
+      switch (sliceName) {
+        case "TextSlice": {
+          sliceList.push(<TextSlice {...data} />);
+          break;
+        }
+        case "ImageSlice": {
+          sliceList.push(<ImageSlice {...data} />);
+          break;
+        }
+        case "SpacingSlice": {
+          sliceList.push(<SpacingSlice {...data} />);
+          break;
+        }
+        case "ImageSliderSectionSlice": {
+          sliceList.push(<ImageSliderSectionSlice {...data} />);
+          break;
+        }
+
+        case "AccordionSlice": {
+          sliceList.push(<AccordionSlice {...data} />);
+          break;
+        }
+      }
+    });
+
+    return sliceList;
+  }, []);
 
   return (
     <MobileFirstLayout>
@@ -20,36 +77,33 @@ const ViewPage = ({
 
 export default ViewPage;
 
-export const getStaticProps: GetStaticProps<{
-  jsonSchema: ViewSchemaProps;
-}> = async (context) => {
+export const getStaticProps: GetStaticProps<{ jsonSchema: Schema }> = async (
+  context,
+) => {
   const slug = (context.params?.slug as string) ?? "";
 
   // slug - '패스트캠퍼스-온라인-강의-프로모션-100원-이벤트-${viewId}'
+  // 맨 마지막에만 아이디 적용하면 됨.  mock
 
   const slicedSlug = slug.split("-");
   const viewId = slicedSlug[slicedSlug.length - 1];
 
-  try {
-    const { value, metadata } = await getViewDetail({ viewId });
+  const response = await fetch(`${CDN_BASE_URL}/view/${viewId}.json`);
 
-    if (metadata.isDraft) {
-      return {
-        notFound: true,
-      };
-    }
+  if (response.status === 200) {
+    const jsonData = await response.json();
 
     return {
       props: {
-        jsonSchema: value,
+        jsonSchema: jsonData,
       },
       revalidate: 10,
     };
-  } catch {
-    return {
-      notFound: true,
-    };
   }
+
+  return {
+    notFound: true,
+  };
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
