@@ -3,7 +3,7 @@ import { Editor, EditorProps } from "@monaco-editor/react";
 type Props = EditorProps;
 
 export const JsonEditor = (props: Props) => {
-  const { defaultLanguage = 'json', height = '90vh', options, ...rest} = props;
+  const { defaultLanguage = "json", height = "90vh", options, ...rest } = props;
 
   return (
     <Editor
@@ -13,4 +13,4 @@ export const JsonEditor = (props: Props) => {
       options={{ fontSize: 16, formatOnPaste: true, ...options }}
     />
   );
-}
+};
