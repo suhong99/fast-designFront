@@ -48,7 +48,7 @@ const EditorNewPage: React.FC = () => {
       <DesktopFirstBody>
         <JsonEditor
           value={schema}
-          onChange={(value: string) => setSchema(value || "")}
+          onChange={(value) => setSchema(value || "")}
         />
       </DesktopFirstBody>
     </DesktopFirstLayout>
