@@ -1,4 +1,4 @@
-import { MobileFirstLayout } from "@/src/components/layout/MobileFirstLayout";
+import { MobileFirstLayout } from "@/src/components/Common/Layouts/MobileFirstLayout";
 import { useViewSchemaSlices } from "@/src/hooks/useViewSchemaSlices";
 import { ViewSliceSchemaSnippet } from "@/src/utils/jsonEditor/ViewSchemaSnippet";
 import { previewStorage } from "@/src/utils/storage";
@@ -14,15 +14,20 @@ const PreviewPage = () => {
     if (!viewId) return;
 
     const stringifiedViewSchema = previewStorage.get(viewId as string);
-
+    
     if (stringifiedViewSchema) {
       setViewSchema(JSON.parse(stringifiedViewSchema));
     }
+
   }, [viewId]);
 
-  const slices = useViewSchemaSlices(viewSchema);
+const slices = useViewSchemaSlices(viewSchema);
 
-  return <MobileFirstLayout>{slices}</MobileFirstLayout>;
-};
+return (
+  <MobileFirstLayout>
+    {slices}
+  </MobileFirstLayout>
+);
+}
 
 export default PreviewPage;

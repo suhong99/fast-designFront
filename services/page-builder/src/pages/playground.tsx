@@ -1,7 +1,12 @@
-import { MobileFirstLayout } from "../components/layout/MobileFirstLayout";
+
+import { MobileFirstLayout } from "../components/Common/Layouts/MobileFirstLayout";
 
 const PlaygroundPage = () => {
-  return <MobileFirstLayout> </MobileFirstLayout>;
+  return (
+    <MobileFirstLayout>
+      
+    </MobileFirstLayout>
+  );
 };
 
 export default PlaygroundPage;

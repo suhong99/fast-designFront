@@ -1,6 +1,13 @@
-import "@/src/styles/globals.css";
-import type { AppProps } from "next/app";
+import '@/src/styles/globals.css';
+import { ToastProvider } from '@fastcampus/react-components-toast';
+import type { AppProps } from 'next/app';
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
-}
+const App = ({ Component, pageProps }: AppProps) => {
+  return (
+    <ToastProvider>
+      <Component {...pageProps} />
+    </ToastProvider>
+  );
+};
+
+export default App;

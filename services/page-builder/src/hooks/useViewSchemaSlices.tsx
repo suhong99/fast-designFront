@@ -1,26 +1,14 @@
 import { useMemo } from "react";
-import { MetadataSlice, MetadataSliceProps } from "../components/view/slices/Metadata";
-import { TextSlice } from "../components/view/slices/Text";
-import { ImageSlice } from "../components/view/slices/Image";
-import { SpacingSlice } from "../components/view/slices/Spacing";
-import { ImageSliderSectionSlice } from "../components/view/slices/ImageSliderSection";
-import { AccordionSlice } from "../components/view/slices/Accordion";
+import { MetadataSlice } from "../components/Features/view/slices/Metadata";
+import { TextSlice } from "../components/Features/view/slices/Text";
+import { ImageSlice } from "../components/Features/view/slices/Image";
+import { SpacingSlice } from "../components/Features/view/slices/Spacing";
+import { ImageSliderSectionSlice } from "../components/Features/view/slices/ImageSliderSection";
+import { AccordionSlice } from "../components/Features/view/slices/Accordion";
+import { ViewSchemaProps } from "../utils/validation/schema/types";
+import { ImageSliderSlice } from "../components/Features/view/slices/ImageSlider";
 
-export type ViewSchema = {
-  slug: string;
-  metadata?: MetadataSliceProps;
-  slices: {
-    sliceName:
-      | "TextSlice"
-      | "ImageSlice"
-      | "SpacingSlice"
-      | "ImageSliderSectionSlice"
-      | "AccordionSlice";
-    data: any;
-  }[];
-};
-
-export const useViewSchemaSlices = (viewSchema: ViewSchema) => {
+export const useViewSchemaSlices = (viewSchema: ViewSchemaProps) => {
   const slices = useMemo(() => {
     const sliceList = [] as React.ReactNode[];
 
@@ -28,7 +16,9 @@ export const useViewSchemaSlices = (viewSchema: ViewSchema) => {
       sliceList.push(<MetadataSlice {...viewSchema.metadata} />);
     }
 
-    viewSchema.slices.forEach(({ sliceName, data }) => {
+    viewSchema.slices.forEach(({ sliceName, hideSlice, data }) => {
+      if (hideSlice) return;
+
       switch (sliceName) {
         case "TextSlice": {
           sliceList.push(<TextSlice {...data} />);
@@ -42,6 +32,12 @@ export const useViewSchemaSlices = (viewSchema: ViewSchema) => {
           sliceList.push(<SpacingSlice {...data} />);
           break;
         }
+
+        case "ImageSliderSlice": {
+          sliceList.push(<ImageSliderSlice {...data} />);
+          break;
+        }
+
         case "ImageSliderSectionSlice": {
           sliceList.push(<ImageSliderSectionSlice {...data} />);
           break;
@@ -58,4 +54,5 @@ export const useViewSchemaSlices = (viewSchema: ViewSchema) => {
   }, [viewSchema]);
 
   return slices;
-}
+};
+
