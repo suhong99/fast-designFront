@@ -32,68 +32,20 @@
         "hash": "16589754503044902594"
       },
       {
-        "file": ".yarn/sdks/integrations.yml",
-        "hash": "12213087882799053847"
-      },
-      {
-        "file": ".yarn/sdks/typescript/lib/typescript.js",
-        "hash": "14270620915146782944"
-      },
-      {
-        "file": ".yarn/sdks/typescript/package.json",
-        "hash": "2339357546392275913"
-      },
-      {
-        "file": "package.json",
-        "hash": "14785790791997873633"
-      },
-      {
-        "file": ".yarn/sdks/typescript/bin/tsserver",
-        "hash": "2921002155874927097"
-      },
-      {
-        "file": ".yarn/sdks/prettier/index.cjs",
-        "hash": "305165232813704753"
-      },
-      {
-        "file": ".yarn/sdks/eslint/package.json",
-        "hash": "15090107928237683572"
-      },
-      {
-        "file": ".yarn/sdks/typescript/lib/tsserverlibrary.js",
-        "hash": "16724794910895953337"
-      },
-      {
-        "file": "nx.json",
-        "hash": "18309398620532989203"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "9966990234491576620"
+        "file": ".github/workflows/ci.yml",
+        "hash": "14278164011889890890"
       },
       {
         "file": ".gitignore",
         "hash": "841533757462043182"
       },
       {
-        "file": ".yarn/sdks/typescript/lib/tsserver.js",
-        "hash": "12147496093750308422"
+        "file": ".prettierrc",
+        "hash": "6300687344990625353"
       },
       {
-        "file": ".github/workflows/ci.yml",
-        "hash": "14278164011889890890"
-      },
-      {
-        "file": ".yarnrc.yml",
-        "hash": "12940923832575673145"
-      },
-      {
-        "file": ".yarn/sdks/eslint/bin/eslint.js",
-        "hash": "15979270975266552888"
-      },
-      {
-        "file": ".yarn/sdks/eslint/lib/unsupported-api.js",
-        "hash": "8812651348907900848"
+        "file": ".vscode/extensions.json",
+        "hash": "9966990234491576620"
       },
       {
         "file": ".vscode/settings.json",
@@ -104,80 +56,131 @@
         "hash": "15798168608206839538"
       },
       {
-        "file": ".prettierrc",
-        "hash": "6300687344990625353"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "5239937699664684276"
+        "file": ".yarn/sdks/eslint/bin/eslint.js",
+        "hash": "15979270975266552888"
       },
       {
         "file": ".yarn/sdks/eslint/lib/api.js",
         "hash": "8537092191562837383"
       },
       {
-        "file": ".yarn/sdks/typescript/bin/tsc",
-        "hash": "4363715679942764715"
+        "file": ".yarn/sdks/eslint/lib/unsupported-api.js",
+        "hash": "8812651348907900848"
       },
       {
-        "file": "README.md",
-        "hash": "2713927689445101953"
+        "file": ".yarn/sdks/eslint/package.json",
+        "hash": "15090107928237683572"
       },
       {
-        "file": "tsconfig.eslint.json",
-        "hash": "6981422439752316205"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "9279121598962341813"
+        "file": ".yarn/sdks/integrations.yml",
+        "hash": "12213087882799053847"
       },
       {
         "file": ".yarn/sdks/prettier/bin/prettier.cjs",
         "hash": "5275460267267109044"
       },
       {
+        "file": ".yarn/sdks/prettier/index.cjs",
+        "hash": "305165232813704753"
+      },
+      {
         "file": ".yarn/sdks/prettier/package.json",
         "hash": "12161261309354211020"
       },
       {
+        "file": ".yarn/sdks/typescript/bin/tsc",
+        "hash": "4363715679942764715"
+      },
+      {
+        "file": ".yarn/sdks/typescript/bin/tsserver",
+        "hash": "2921002155874927097"
+      },
+      {
         "file": ".yarn/sdks/typescript/lib/tsc.js",
         "hash": "12910800715108004686"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/tsserver.js",
+        "hash": "12147496093750308422"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/tsserverlibrary.js",
+        "hash": "16724794910895953337"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/typescript.js",
+        "hash": "14270620915146782944"
+      },
+      {
+        "file": ".yarn/sdks/typescript/package.json",
+        "hash": "2339357546392275913"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "13053132984998987888"
+      },
+      {
+        "file": "README.md",
+        "hash": "9992698933478992598"
+      },
+      {
+        "file": "nx.json",
+        "hash": "18309398620532989203"
+      },
+      {
+        "file": "package.json",
+        "hash": "14785790791997873633"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "5239937699664684276"
+      },
+      {
+        "file": "tsconfig.eslint.json",
+        "hash": "6981422439752316205"
+      },
+      {
+        "file": "tsconfig.service.json",
+        "hash": "1338555091878656521"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "6595974818387343745"
       }
     ],
     "projectFileMap": {
-      "@fastcampus/react-hooks-button": [
+      "@fastcampus/react-hooks-select": [
         {
-          "file": "packages/react/hooks/button/build.js",
-          "hash": "17221510435040508292"
+          "file": "packages/react/hooks/select/README.md",
+          "hash": "232384143838245580"
         },
         {
-          "file": "packages/react/hooks/button/package.json",
-          "hash": "2392122634525102848",
+          "file": "packages/react/hooks/select/build.js",
+          "hash": "13179285371479516743"
+        },
+        {
+          "file": "packages/react/hooks/select/package.json",
+          "hash": "5500827999806214792",
           "deps": [
-            "@fastcampus/react-hooks-toggle",
             "@fastcampus/esbuild-config",
             "npm:typescript"
           ]
         },
         {
-          "file": "packages/react/hooks/button/src/index.ts",
-          "hash": "10535575191923847207"
+          "file": "packages/react/hooks/select/src/index.ts",
+          "hash": "16406291162616604739"
         },
         {
-          "file": "packages/react/hooks/button/src/types.ts",
-          "hash": "5143273703171501604"
+          "file": "packages/react/hooks/select/src/types.ts",
+          "hash": "12317057605787896880"
         },
         {
-          "file": "packages/react/hooks/button/src/useButton.tsx",
-          "hash": "318158185767561869"
+          "file": "packages/react/hooks/select/src/useSelect.ts",
+          "hash": "10272838170998038664"
         },
         {
-          "file": "packages/react/hooks/button/src/useToggleButton.ts",
-          "hash": "13789670253088604820"
-        },
-        {
-          "file": "packages/react/hooks/button/tsconfig.json",
-          "hash": "14674305488496630786"
+          "file": "packages/react/hooks/select/tsconfig.json",
+          "hash": "10344179325425879767"
         }
       ],
       "@fastcampus/react-components-layout": [
@@ -279,6 +282,36 @@
           "hash": "3053444603868262942"
         }
       ],
+      "@fastcampus/react-hooks-input": [
+        {
+          "file": "packages/react/hooks/input/build.js",
+          "hash": "13179285371479516743"
+        },
+        {
+          "file": "packages/react/hooks/input/package.json",
+          "hash": "4573608682773575260",
+          "deps": [
+            "@fastcampus/esbuild-config",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/react/hooks/input/src/index.ts",
+          "hash": "7663711916905442434"
+        },
+        {
+          "file": "packages/react/hooks/input/src/types.ts",
+          "hash": "9359626783664781061"
+        },
+        {
+          "file": "packages/react/hooks/input/src/useInput.ts",
+          "hash": "17650637041736253538"
+        },
+        {
+          "file": "packages/react/hooks/input/tsconfig.json",
+          "hash": "10344179325425879767"
+        }
+      ],
       "@fastcampus/react-components-button": [
         {
           "file": "packages/react/components/button/build.js",
@@ -313,6 +346,405 @@
         {
           "file": "packages/react/components/button/tsconfig.json",
           "hash": "14674305488496630786"
+        }
+      ],
+      "@fastcampus/react-hooks-button": [
+        {
+          "file": "packages/react/hooks/button/build.js",
+          "hash": "17221510435040508292"
+        },
+        {
+          "file": "packages/react/hooks/button/package.json",
+          "hash": "2392122634525102848",
+          "deps": [
+            "@fastcampus/react-hooks-toggle",
+            "@fastcampus/esbuild-config",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/react/hooks/button/src/index.ts",
+          "hash": "10535575191923847207"
+        },
+        {
+          "file": "packages/react/hooks/button/src/types.ts",
+          "hash": "5143273703171501604"
+        },
+        {
+          "file": "packages/react/hooks/button/src/useButton.tsx",
+          "hash": "318158185767561869"
+        },
+        {
+          "file": "packages/react/hooks/button/src/useToggleButton.ts",
+          "hash": "13789670253088604820"
+        },
+        {
+          "file": "packages/react/hooks/button/tsconfig.json",
+          "hash": "14674305488496630786"
+        }
+      ],
+      "@fastcampus/page-builder": [
+        {
+          "file": "services/page-builder/.gitignore",
+          "hash": "6558137213311872981"
+        },
+        {
+          "file": "services/page-builder/README.md",
+          "hash": "1318542633429303262"
+        },
+        {
+          "file": "services/page-builder/next.config.js",
+          "hash": "6238381230399749244"
+        },
+        {
+          "file": "services/page-builder/package.json",
+          "hash": "9831193915906429683",
+          "deps": [
+            "@fastcampus/react-components-accordion",
+            "@fastcampus/react-components-button",
+            "@fastcampus/react-components-input",
+            "@fastcampus/react-components-layout",
+            "@fastcampus/react-components-select",
+            "@fastcampus/react-components-toast",
+            "@fastcampus/themes",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "services/page-builder/postcss.config.js",
+          "hash": "1579725330904862112"
+        },
+        {
+          "file": "services/page-builder/public/favicon.ico",
+          "hash": "11076473508384970545"
+        },
+        {
+          "file": "services/page-builder/public/next.svg",
+          "hash": "8300767200008744458"
+        },
+        {
+          "file": "services/page-builder/public/vercel.svg",
+          "hash": "2376673330454856631"
+        },
+        {
+          "file": "services/page-builder/public/view/mock.json",
+          "hash": "16796877008913427703"
+        },
+        {
+          "file": "services/page-builder/public/worker.js",
+          "hash": "67833893491464571"
+        },
+        {
+          "file": "services/page-builder/src/apis/instance.ts",
+          "hash": "12349144000386728123"
+        },
+        {
+          "file": "services/page-builder/src/apis/r2/index.ts",
+          "hash": "7238633459291257067"
+        },
+        {
+          "file": "services/page-builder/src/apis/r2/putImageFile.ts",
+          "hash": "17938996901868809104"
+        },
+        {
+          "file": "services/page-builder/src/apis/worker/deleteViewDetail.ts",
+          "hash": "1886841393974134865"
+        },
+        {
+          "file": "services/page-builder/src/apis/worker/getViewDetail.ts",
+          "hash": "5750587680691517657"
+        },
+        {
+          "file": "services/page-builder/src/apis/worker/getViewList.ts",
+          "hash": "2158253192715560321"
+        },
+        {
+          "file": "services/page-builder/src/apis/worker/index.ts",
+          "hash": "10488538492705613824"
+        },
+        {
+          "file": "services/page-builder/src/apis/worker/putViewDetail.ts",
+          "hash": "9129237915907992407"
+        },
+        {
+          "file": "services/page-builder/src/apis/worker/type.ts",
+          "hash": "18170019303335577846"
+        },
+        {
+          "file": "services/page-builder/src/components/Common/Editor/Json.tsx",
+          "hash": "5702215041160487138"
+        },
+        {
+          "file": "services/page-builder/src/components/Common/Form/Field/ImageURLField.tsx",
+          "hash": "196270070372557722"
+        },
+        {
+          "file": "services/page-builder/src/components/Common/Form/Field/InputField.tsx",
+          "hash": "8398171348229571557"
+        },
+        {
+          "file": "services/page-builder/src/components/Common/Form/Field/SelectField.tsx",
+          "hash": "816643488885019785"
+        },
+        {
+          "file": "services/page-builder/src/components/Common/Form/Input/ImageURL/index.tsx",
+          "hash": "2981933670363544658"
+        },
+        {
+          "file": "services/page-builder/src/components/Common/Form/Layouts/FormFieldSection.tsx",
+          "hash": "8606228960492825153"
+        },
+        {
+          "file": "services/page-builder/src/components/Common/Form/Layouts/FormFieldWrapper.tsx",
+          "hash": "3764813280623881725"
+        },
+        {
+          "file": "services/page-builder/src/components/Common/Layouts/DesktopFirstLayout/Body.tsx",
+          "hash": "10707863562565707184"
+        },
+        {
+          "file": "services/page-builder/src/components/Common/Layouts/DesktopFirstLayout/Nav.tsx",
+          "hash": "17050625994631402562"
+        },
+        {
+          "file": "services/page-builder/src/components/Common/Layouts/DesktopFirstLayout/SideNav.tsx",
+          "hash": "18178093424464334152"
+        },
+        {
+          "file": "services/page-builder/src/components/Common/Layouts/DesktopFirstLayout/index.tsx",
+          "hash": "14147589567648062268"
+        },
+        {
+          "file": "services/page-builder/src/components/Common/Layouts/MobileFirstLayout/index.tsx",
+          "hash": "16764725010617327848"
+        },
+        {
+          "file": "services/page-builder/src/components/Common/Spacing/index.tsx",
+          "hash": "13673278793731189602"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/EditorNewFormPage/GlobalNavBar/index.tsx",
+          "hash": "10457252898067719457"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/EditorNewFormPage/SideNavBar/index.tsx",
+          "hash": "12511991786531746058"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/EditorNewFormPage/ViewSchemaForm/CommonFields/index.tsx",
+          "hash": "10649937582470904271"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/EditorNewFormPage/ViewSchemaForm/MetadataFields/index.tsx",
+          "hash": "6303478228667847342"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/EditorNewFormPage/ViewSchemaForm/SliceFields/AccordionFields/AccordionContentsFields.tsx",
+          "hash": "1722601179088569260"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/EditorNewFormPage/ViewSchemaForm/SliceFields/AccordionFields/index.tsx",
+          "hash": "10321700604029484755"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/EditorNewFormPage/ViewSchemaForm/SliceFields/Common/SliceFieldTitleNavBar.tsx",
+          "hash": "4082526745324038415"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/EditorNewFormPage/ViewSchemaForm/SliceFields/ImageFields/index.tsx",
+          "hash": "15542329981986805371"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/EditorNewFormPage/ViewSchemaForm/SliceFields/ImageSliderFields/ImagesFields.tsx",
+          "hash": "5427139381822316352"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/EditorNewFormPage/ViewSchemaForm/SliceFields/ImageSliderFields/index.tsx",
+          "hash": "13157643040452173799"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/EditorNewFormPage/ViewSchemaForm/SliceFields/SpacingFields/index.tsx",
+          "hash": "5428899143075763054"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/EditorNewFormPage/ViewSchemaForm/SliceFields/TextFields/TextHighlightField.tsx",
+          "hash": "11409680610905375367"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/EditorNewFormPage/ViewSchemaForm/SliceFields/TextFields/index.tsx",
+          "hash": "11860954680570029388"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/EditorNewFormPage/ViewSchemaForm/SliceFields/index.tsx",
+          "hash": "6242507997193713352"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/EditorNewFormPage/ViewSchemaForm/index.tsx",
+          "hash": "16785265929391219324"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/EditorNewJsonPage/JsonPresetList/index.tsx",
+          "hash": "5044031876604529741"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/EditorPage/ViewList/index.tsx",
+          "hash": "14421676132807759920"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/view/slices/Accordion/index.tsx",
+          "hash": "13443256293882982235"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/view/slices/Image/index.tsx",
+          "hash": "7040619805285163012"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/view/slices/ImageSlider/index.tsx",
+          "hash": "11241300867711047712"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/view/slices/ImageSliderSection/index.tsx",
+          "hash": "17731896642552724344"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/view/slices/Metadata/index.tsx",
+          "hash": "5579402985832961265"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/view/slices/Spacing/index.tsx",
+          "hash": "9222600390295036078"
+        },
+        {
+          "file": "services/page-builder/src/components/Features/view/slices/Text/index.tsx",
+          "hash": "7564732021653962825"
+        },
+        {
+          "file": "services/page-builder/src/constants.ts",
+          "hash": "17483075435266871947"
+        },
+        {
+          "file": "services/page-builder/src/hooks/usePage.ts",
+          "hash": "8141501267136909740"
+        },
+        {
+          "file": "services/page-builder/src/hooks/useViewSchemaForm.ts",
+          "hash": "12423651141671299204"
+        },
+        {
+          "file": "services/page-builder/src/hooks/useViewSchemaFormSliceFieldArray.tsx",
+          "hash": "2603174674272469000"
+        },
+        {
+          "file": "services/page-builder/src/hooks/useViewSchemaSlices.tsx",
+          "hash": "12925157314004800414"
+        },
+        {
+          "file": "services/page-builder/src/hooks/useViewSchemaValidation.ts",
+          "hash": "8805072136026050059"
+        },
+        {
+          "file": "services/page-builder/src/pages/404.tsx",
+          "hash": "9621641284516345404"
+        },
+        {
+          "file": "services/page-builder/src/pages/_app.tsx",
+          "hash": "11452069850062728461"
+        },
+        {
+          "file": "services/page-builder/src/pages/_document.tsx",
+          "hash": "18437410805404812855"
+        },
+        {
+          "file": "services/page-builder/src/pages/_error.tsx",
+          "hash": "8654408847215281324"
+        },
+        {
+          "file": "services/page-builder/src/pages/editor/index.tsx",
+          "hash": "2507464798492859484"
+        },
+        {
+          "file": "services/page-builder/src/pages/editor/new/index.tsx",
+          "hash": "5479586343820929188"
+        },
+        {
+          "file": "services/page-builder/src/pages/editor/new/json.tsx",
+          "hash": "2249941998713099853"
+        },
+        {
+          "file": "services/page-builder/src/pages/playground.tsx",
+          "hash": "12533455543172370941"
+        },
+        {
+          "file": "services/page-builder/src/pages/preview/[viewId].tsx",
+          "hash": "15850184166929088988"
+        },
+        {
+          "file": "services/page-builder/src/pages/view/[slug].tsx",
+          "hash": "3294385361153882318"
+        },
+        {
+          "file": "services/page-builder/src/styles/fds.module.css",
+          "hash": "9377959755573536685"
+        },
+        {
+          "file": "services/page-builder/src/styles/globals.css",
+          "hash": "17185878185298964419"
+        },
+        {
+          "file": "services/page-builder/src/styles/preflight.module.css",
+          "hash": "13796550534727915522"
+        },
+        {
+          "file": "services/page-builder/src/utils/date/format.ts",
+          "hash": "12237958108338261277"
+        },
+        {
+          "file": "services/page-builder/src/utils/jsonEditor/ViewSchemaSnippet.ts",
+          "hash": "4850979819674261688"
+        },
+        {
+          "file": "services/page-builder/src/utils/jsonEditor/index.tsx",
+          "hash": "5878760625967654738"
+        },
+        {
+          "file": "services/page-builder/src/utils/size.ts",
+          "hash": "7331925445590481464"
+        },
+        {
+          "file": "services/page-builder/src/utils/storage/index.ts",
+          "hash": "6426973525055358198"
+        },
+        {
+          "file": "services/page-builder/src/utils/validation/error.ts",
+          "hash": "14815069003956775580"
+        },
+        {
+          "file": "services/page-builder/src/utils/validation/schema/object.ts",
+          "hash": "12310397895736209600"
+        },
+        {
+          "file": "services/page-builder/src/utils/validation/schema/slices.ts",
+          "hash": "16937644303336025321"
+        },
+        {
+          "file": "services/page-builder/src/utils/validation/schema/style.ts",
+          "hash": "12805415826771131259"
+        },
+        {
+          "file": "services/page-builder/src/utils/validation/schema/types.ts",
+          "hash": "4043446535653861147"
+        },
+        {
+          "file": "services/page-builder/src/utils/validation/schema/view.ts",
+          "hash": "13319741964430721452"
+        },
+        {
+          "file": "services/page-builder/tailwind.config.ts",
+          "hash": "8073515012313735696"
+        },
+        {
+          "file": "services/page-builder/tsconfig.json",
+          "hash": "16371841772185020716"
         }
       ],
       "@fastcampus/react-components-select": [
@@ -351,210 +783,6 @@
           "hash": "9929747942641238323"
         }
       ],
-      "@fastcampus/react-components-input": [
-        {
-          "file": "packages/react/components/input/build.js",
-          "hash": "10044192308792359182"
-        },
-        {
-          "file": "packages/react/components/input/package.json",
-          "hash": "4398299178501113661",
-          "deps": [
-            "@fastcampus/react-hooks-input",
-            "@fastcampus/esbuild-config",
-            "@fastcampus/themes",
-            "npm:typescript"
-          ]
-        },
-        {
-          "file": "packages/react/components/input/src/Input.tsx",
-          "hash": "16854812591675178961"
-        },
-        {
-          "file": "packages/react/components/input/src/InputGroup.tsx",
-          "hash": "16067699914029800220"
-        },
-        {
-          "file": "packages/react/components/input/src/InputLeftAddon.tsx",
-          "hash": "5225304986149101932"
-        },
-        {
-          "file": "packages/react/components/input/src/index.ts",
-          "hash": "7206012316751655975"
-        },
-        {
-          "file": "packages/react/components/input/src/style.css.ts",
-          "hash": "18254110408123284927"
-        },
-        {
-          "file": "packages/react/components/input/src/types.ts",
-          "hash": "8766350713407280455"
-        },
-        {
-          "file": "packages/react/components/input/tsconfig.json",
-          "hash": "9929747942641238323"
-        }
-      ],
-      "@fastcampus/react-hooks-input": [
-        {
-          "file": "packages/react/hooks/input/build.js",
-          "hash": "13179285371479516743"
-        },
-        {
-          "file": "packages/react/hooks/input/package.json",
-          "hash": "4573608682773575260",
-          "deps": [
-            "@fastcampus/esbuild-config",
-            "npm:typescript"
-          ]
-        },
-        {
-          "file": "packages/react/hooks/input/src/index.ts",
-          "hash": "7663711916905442434"
-        },
-        {
-          "file": "packages/react/hooks/input/src/types.ts",
-          "hash": "9359626783664781061"
-        },
-        {
-          "file": "packages/react/hooks/input/src/useInput.ts",
-          "hash": "17650637041736253538"
-        },
-        {
-          "file": "packages/react/hooks/input/tsconfig.json",
-          "hash": "10344179325425879767"
-        }
-      ],
-      "@fastcampus/themes": [
-        {
-          "file": "packages/themes/build.js",
-          "hash": "2308995072923416306"
-        },
-        {
-          "file": "packages/themes/package.json",
-          "hash": "16929786605003621644",
-          "deps": [
-            "@fastcampus/esbuild-config",
-            "npm:typescript"
-          ]
-        },
-        {
-          "file": "packages/themes/scripts/build-css-module.js",
-          "hash": "15643935011323532841"
-        },
-        {
-          "file": "packages/themes/src/classes/index.ts",
-          "hash": "10499901138301439318"
-        },
-        {
-          "file": "packages/themes/src/classes/typography.ts",
-          "hash": "18080047435064110543"
-        },
-        {
-          "file": "packages/themes/src/index.ts",
-          "hash": "15500471172790123183"
-        },
-        {
-          "file": "packages/themes/src/variables/box.ts",
-          "hash": "1461245777324016548"
-        },
-        {
-          "file": "packages/themes/src/variables/colors/index.ts",
-          "hash": "7326832966542287352"
-        },
-        {
-          "file": "packages/themes/src/variables/colors/scale.ts",
-          "hash": "7227875050283308958"
-        },
-        {
-          "file": "packages/themes/src/variables/colors/static/dark.ts",
-          "hash": "681337314988286385"
-        },
-        {
-          "file": "packages/themes/src/variables/colors/static/index.ts",
-          "hash": "18024143103640227694"
-        },
-        {
-          "file": "packages/themes/src/variables/colors/static/light.ts",
-          "hash": "5111065768491833496"
-        },
-        {
-          "file": "packages/themes/src/variables/index.ts",
-          "hash": "1584955132973433009"
-        },
-        {
-          "file": "packages/themes/src/variables/typography.ts",
-          "hash": "7786597730280278244"
-        },
-        {
-          "file": "packages/themes/tsconfig.json",
-          "hash": "7939013219855481482"
-        }
-      ],
-      "@fastcampus/react-hooks-select": [
-        {
-          "file": "packages/react/hooks/select/README.md",
-          "hash": "232384143838245580"
-        },
-        {
-          "file": "packages/react/hooks/select/build.js",
-          "hash": "13179285371479516743"
-        },
-        {
-          "file": "packages/react/hooks/select/package.json",
-          "hash": "5500827999806214792",
-          "deps": [
-            "@fastcampus/esbuild-config",
-            "npm:typescript"
-          ]
-        },
-        {
-          "file": "packages/react/hooks/select/src/index.ts",
-          "hash": "16406291162616604739"
-        },
-        {
-          "file": "packages/react/hooks/select/src/types.ts",
-          "hash": "12317057605787896880"
-        },
-        {
-          "file": "packages/react/hooks/select/src/useSelect.ts",
-          "hash": "10272838170998038664"
-        },
-        {
-          "file": "packages/react/hooks/select/tsconfig.json",
-          "hash": "10344179325425879767"
-        }
-      ],
-      "@fastcampus/react-hooks-toggle": [
-        {
-          "file": "packages/react/hooks/toggle/build.js",
-          "hash": "17221510435040508292"
-        },
-        {
-          "file": "packages/react/hooks/toggle/package.json",
-          "hash": "5795361631524725479",
-          "deps": [
-            "@fastcampus/esbuild-config",
-            "npm:typescript"
-          ]
-        },
-        {
-          "file": "packages/react/hooks/toggle/src/index.ts",
-          "hash": "13190166400749655539"
-        },
-        {
-          "file": "packages/react/hooks/toggle/src/types.ts",
-          "hash": "13666444803187522029"
-        },
-        {
-          "file": "packages/react/hooks/toggle/src/useToggle.ts",
-          "hash": "9256311866014801661"
-        },
-        {
-          "file": "packages/react/hooks/toggle/tsconfig.json",
-          "hash": "14674305488496630786"
-        }
-      ],
       "@fastcampus/esbuild-config": [
         {
           "file": "packages/esbuild-config/README.md",
@@ -566,7 +794,56 @@
         },
         {
           "file": "packages/esbuild-config/package.json",
-          "hash": "10957064697232862624"
+          "hash": "1392400034872719060"
+        }
+      ],
+      "docs": [
+        {
+          "file": "services/docs/README.md",
+          "hash": "3759183606782836694"
+        },
+        {
+          "file": "services/docs/next-env.d.ts",
+          "hash": "650381615855576712"
+        },
+        {
+          "file": "services/docs/next.config.js",
+          "hash": "6792217897795125237"
+        },
+        {
+          "file": "services/docs/package.json",
+          "hash": "5566055656482281197",
+          "deps": [
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "services/docs/pages/_meta.json",
+          "hash": "7501001745521531717"
+        },
+        {
+          "file": "services/docs/pages/hooks/_meta.json",
+          "hash": "2535516626551152329"
+        },
+        {
+          "file": "services/docs/pages/hooks/index.mdx",
+          "hash": "6044509965196080151"
+        },
+        {
+          "file": "services/docs/pages/index.mdx",
+          "hash": "12984819365658747685"
+        },
+        {
+          "file": "services/docs/pages/themes/Installation.mdx",
+          "hash": "968922392235680692"
+        },
+        {
+          "file": "services/docs/theme.config.tsx",
+          "hash": "10920969382563181075"
+        },
+        {
+          "file": "services/docs/tsconfig.json",
+          "hash": "16026232842121566839"
         }
       ],
       "@fastcampus/react-components-toast": [
@@ -614,6 +891,95 @@
         {
           "file": "packages/react/components/toast/tsconfig.json",
           "hash": "10344179325425879767"
+        }
+      ],
+      "@fastcampus/react-components-accordion": [
+        {
+          "file": "packages/react/components/accordion/build.js",
+          "hash": "12502213574713388623"
+        },
+        {
+          "file": "packages/react/components/accordion/package.json",
+          "hash": "16093322766550837454",
+          "deps": [
+            "@fastcampus/react-hooks-button",
+            "@fastcampus/esbuild-config",
+            "@fastcampus/themes",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/react/components/accordion/src/Accordion.tsx",
+          "hash": "15257389082860536409"
+        },
+        {
+          "file": "packages/react/components/accordion/src/AccordionButton.tsx",
+          "hash": "10823813364988731549"
+        },
+        {
+          "file": "packages/react/components/accordion/src/AccordionContext.tsx",
+          "hash": "16802727246996972943"
+        },
+        {
+          "file": "packages/react/components/accordion/src/AccordionItem.tsx",
+          "hash": "18254717777939924557"
+        },
+        {
+          "file": "packages/react/components/accordion/src/AccordionPanel.tsx",
+          "hash": "15117319365835040992"
+        },
+        {
+          "file": "packages/react/components/accordion/src/index.ts",
+          "hash": "6692487404382574495"
+        },
+        {
+          "file": "packages/react/components/accordion/src/style.css.ts",
+          "hash": "10704811964718860719"
+        },
+        {
+          "file": "packages/react/components/accordion/src/types.ts",
+          "hash": "1779933654789481147"
+        },
+        {
+          "file": "packages/react/components/accordion/tsconfig.json",
+          "hash": "10344179325425879767"
+        }
+      ],
+      "@fastcampus/youtube": [
+        {
+          "file": "services/youtube/.gitignore",
+          "hash": "6558137213311872981"
+        },
+        {
+          "file": "services/youtube/README.md",
+          "hash": "12205685531602560652"
+        },
+        {
+          "file": "services/youtube/next.config.js",
+          "hash": "6238381230399749244"
+        },
+        {
+          "file": "services/youtube/package.json",
+          "hash": "2113544793519556549",
+          "deps": [
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "services/youtube/src/app/globals.css",
+          "hash": "16573379123872968227"
+        },
+        {
+          "file": "services/youtube/src/app/layout.tsx",
+          "hash": "14048265376961113493"
+        },
+        {
+          "file": "services/youtube/src/app/page.tsx",
+          "hash": "10651823742511421261"
+        },
+        {
+          "file": "services/youtube/tsconfig.json",
+          "hash": "13127925495497743418"
         }
       ],
       "@fastcampus/storybook": [
@@ -712,105 +1078,144 @@
           "hash": "15054015433892515864"
         }
       ],
-      "docs": [
+      "@fastcampus/react-components-input": [
         {
-          "file": "services/docs/README.md",
-          "hash": "3759183606782836694"
+          "file": "packages/react/components/input/build.js",
+          "hash": "10044192308792359182"
         },
         {
-          "file": "services/docs/next-env.d.ts",
-          "hash": "650381615855576712"
-        },
-        {
-          "file": "services/docs/next.config.js",
-          "hash": "6792217897795125237"
-        },
-        {
-          "file": "services/docs/package.json",
-          "hash": "5566055656482281197",
+          "file": "packages/react/components/input/package.json",
+          "hash": "4398299178501113661",
           "deps": [
-            "npm:typescript"
-          ]
-        },
-        {
-          "file": "services/docs/pages/_meta.json",
-          "hash": "7501001745521531717"
-        },
-        {
-          "file": "services/docs/pages/hooks/_meta.json",
-          "hash": "2535516626551152329"
-        },
-        {
-          "file": "services/docs/pages/hooks/index.mdx",
-          "hash": "6044509965196080151"
-        },
-        {
-          "file": "services/docs/pages/index.mdx",
-          "hash": "12984819365658747685"
-        },
-        {
-          "file": "services/docs/pages/themes/Installation.mdx",
-          "hash": "968922392235680692"
-        },
-        {
-          "file": "services/docs/theme.config.tsx",
-          "hash": "10920969382563181075"
-        },
-        {
-          "file": "services/docs/tsconfig.json",
-          "hash": "16026232842121566839"
-        }
-      ],
-      "@fastcampus/react-components-accordion": [
-        {
-          "file": "packages/react/components/accordion/build.js",
-          "hash": "12502213574713388623"
-        },
-        {
-          "file": "packages/react/components/accordion/package.json",
-          "hash": "16093322766550837454",
-          "deps": [
-            "@fastcampus/react-hooks-button",
+            "@fastcampus/react-hooks-input",
             "@fastcampus/esbuild-config",
             "@fastcampus/themes",
             "npm:typescript"
           ]
         },
         {
-          "file": "packages/react/components/accordion/src/Accordion.tsx",
-          "hash": "15257389082860536409"
+          "file": "packages/react/components/input/src/Input.tsx",
+          "hash": "16854812591675178961"
         },
         {
-          "file": "packages/react/components/accordion/src/AccordionButton.tsx",
-          "hash": "10823813364988731549"
+          "file": "packages/react/components/input/src/InputGroup.tsx",
+          "hash": "16067699914029800220"
         },
         {
-          "file": "packages/react/components/accordion/src/AccordionContext.tsx",
-          "hash": "16802727246996972943"
+          "file": "packages/react/components/input/src/InputLeftAddon.tsx",
+          "hash": "5225304986149101932"
         },
         {
-          "file": "packages/react/components/accordion/src/AccordionItem.tsx",
-          "hash": "18254717777939924557"
+          "file": "packages/react/components/input/src/index.ts",
+          "hash": "7206012316751655975"
         },
         {
-          "file": "packages/react/components/accordion/src/AccordionPanel.tsx",
-          "hash": "15117319365835040992"
+          "file": "packages/react/components/input/src/style.css.ts",
+          "hash": "18254110408123284927"
         },
         {
-          "file": "packages/react/components/accordion/src/index.ts",
-          "hash": "6692487404382574495"
+          "file": "packages/react/components/input/src/types.ts",
+          "hash": "8766350713407280455"
         },
         {
-          "file": "packages/react/components/accordion/src/style.css.ts",
-          "hash": "10704811964718860719"
+          "file": "packages/react/components/input/tsconfig.json",
+          "hash": "9929747942641238323"
+        }
+      ],
+      "@fastcampus/react-hooks-toggle": [
+        {
+          "file": "packages/react/hooks/toggle/build.js",
+          "hash": "17221510435040508292"
         },
         {
-          "file": "packages/react/components/accordion/src/types.ts",
-          "hash": "1779933654789481147"
+          "file": "packages/react/hooks/toggle/package.json",
+          "hash": "5795361631524725479",
+          "deps": [
+            "@fastcampus/esbuild-config",
+            "npm:typescript"
+          ]
         },
         {
-          "file": "packages/react/components/accordion/tsconfig.json",
-          "hash": "10344179325425879767"
+          "file": "packages/react/hooks/toggle/src/index.ts",
+          "hash": "13190166400749655539"
+        },
+        {
+          "file": "packages/react/hooks/toggle/src/types.ts",
+          "hash": "13666444803187522029"
+        },
+        {
+          "file": "packages/react/hooks/toggle/src/useToggle.ts",
+          "hash": "9256311866014801661"
+        },
+        {
+          "file": "packages/react/hooks/toggle/tsconfig.json",
+          "hash": "14674305488496630786"
+        }
+      ],
+      "@fastcampus/themes": [
+        {
+          "file": "packages/themes/build.js",
+          "hash": "2308995072923416306"
+        },
+        {
+          "file": "packages/themes/package.json",
+          "hash": "16929786605003621644",
+          "deps": [
+            "@fastcampus/esbuild-config",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/themes/scripts/build-css-module.js",
+          "hash": "15643935011323532841"
+        },
+        {
+          "file": "packages/themes/src/classes/index.ts",
+          "hash": "10499901138301439318"
+        },
+        {
+          "file": "packages/themes/src/classes/typography.ts",
+          "hash": "18080047435064110543"
+        },
+        {
+          "file": "packages/themes/src/index.ts",
+          "hash": "15500471172790123183"
+        },
+        {
+          "file": "packages/themes/src/variables/box.ts",
+          "hash": "1461245777324016548"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/index.ts",
+          "hash": "7326832966542287352"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/scale.ts",
+          "hash": "7227875050283308958"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/static/dark.ts",
+          "hash": "681337314988286385"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/static/index.ts",
+          "hash": "18024143103640227694"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/static/light.ts",
+          "hash": "5111065768491833496"
+        },
+        {
+          "file": "packages/themes/src/variables/index.ts",
+          "hash": "1584955132973433009"
+        },
+        {
+          "file": "packages/themes/src/variables/typography.ts",
+          "hash": "7786597730280278244"
+        },
+        {
+          "file": "packages/themes/tsconfig.json",
+          "hash": "7939013219855481482"
         }
       ]
     }
