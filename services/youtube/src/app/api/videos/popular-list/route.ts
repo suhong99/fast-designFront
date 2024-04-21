@@ -10,8 +10,9 @@ import { NextRequest } from "next/server";
 
 export const GET = async (request: NextRequest) => {
   try {
-    //Params Validatoin 생략
+    // Params Validation 생략
     const queryParams = parseQueryParams(request.nextUrl.searchParams);
+
     const { data } = await youtubeServerInstance.videos.list({
       part: ["snippet", "statistics"],
       chart: "mostPopular",
@@ -34,7 +35,7 @@ const parseQueryParams = (
   params: URLSearchParams,
 ): GetVideosPopularListRequestParams => {
   return {
-    maxResults: Number(params.get("maxResults" ?? 10)),
+    maxResults: Number(params.get("maxResults") ?? "10"),
     pageToken: params.get("pageToken") ?? undefined,
   };
 };

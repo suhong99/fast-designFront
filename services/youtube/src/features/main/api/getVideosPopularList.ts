@@ -1,17 +1,41 @@
-import { VideoStatistics } from "@/src/shared/types/item";
-import { ListResponse, VideoListItem } from "@/src/shared/types/list";
+import { API_BASE_URL } from "@/src/shared/api/constants";
+import { VideoThumbnail } from "@/src/shared/api/youtube/types/item";
+import { ListPageApiInfo } from "@/src/shared/api/youtube/types/list";
 import { youtube_v3 } from "googleapis";
+import queryString from "query-string";
 
 export type GetVideosPopularListRequestParams = Pick<
   youtube_v3.Params$Resource$Videos$List,
   "maxResults" | "pageToken"
 >;
-export type PopularListItem = Pick<
-  VideoStatistics,
-  "viewCount" | "viewCountDisplayText"
-> &
-  VideoListItem;
 
-export type GetVideosPopularListResponse = ListResponse<PopularListItem>;
+export type PopularListItem = {
+  videoId: string;
+  title: string;
+  description: string;
+  channelId: string;
+  channelTitle: string;
+  thumbnail: VideoThumbnail;
+  publishedAt: string;
+  publishedAtDisplayText: string; // 1개월 전
+  viewCount: number;
+  viewCountDisplayText: string; // 23만
+};
 
-// export const getVideosPopularListUrl = `${API_BASE_URL}/api/videos/popular-list`;
+export type GetVideosPopularListResponse = {
+  lists: PopularListItem[];
+} & ListPageApiInfo;
+
+export const getVideosPopularListUrl = `${API_BASE_URL}/api/videos/popular-list`;
+
+export const getVideosPopularList = async (
+  params: GetVideosPopularListRequestParams,
+): Promise<GetVideosPopularListResponse> => {
+  const queryParams = queryString.stringify(params);
+
+  const url = `${getVideosPopularListUrl}?${queryParams}`;
+
+  const response = await fetch(url);
+
+  return await response.json();
+};

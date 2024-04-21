@@ -1,6 +1,6 @@
 const units = ["", "만", "억", "조", "경"];
 
-// 입력된 숫자를 "만" 단위로 구분하고, 그 이하의 숫자에는 천 단위로 쉼표를 추가하는 함수
+// ChatGPT: 입력된 숫자를 "만" 단위로 구분하고, 그 이하의 숫자에는 천 단위로 쉼표를 추가하는 함수
 export const formatNumberToKoreanText = (
   value: number,
   onlyHighestUnit?: boolean,

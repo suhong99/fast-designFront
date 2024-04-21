@@ -1,28 +1,21 @@
 {
   "extends": "../../tsconfig.service.json",
   "compilerOptions": {
+    "target": "ES6",
     "moduleResolution": "bundler",
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/src/*": [
-        "./src/*"
-      ]
+      "@/src/*": ["./src/*"],
     },
-    "skipLibCheck": true,
     "plugins": [
       {
-        "name": "next"
-      }
-    ]
+        "name": "next",
+      },
+    ],
+    "types": ["vitest/globals"],
+    "skipLibCheck": true,
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"],
 }

@@ -2,27 +2,48 @@
   "name": "@fastcampus/youtube",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "yarn@4.0.2",
   "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
     "dev": "next dev",
+    "dev:mocking": "NEXT_PUBLIC_MOCKING=true next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@fastcampus/themes": "workspace:^",
+    "@tanstack/react-query": "^5.29.2",
+    "@tanstack/react-query-next-experimental": "^5.29.2",
     "@vanilla-extract/css": "^1.14.0",
     "@vanilla-extract/dynamic": "^2.1.0",
     "@vanilla-extract/recipes": "^0.5.1",
     "googleapis": "^134.0.0",
     "next": "13.5.4",
+    "query-string": "^9.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.8.2"
   },
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@testing-library/dom": "^10.0.0",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^15.0.2",
+    "@testing-library/user-event": "^14.5.2",
     "@types/node": "^20.8.3",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
     "@vanilla-extract/next-plugin": "^2.4.0",
-    "typescript": "^5.3.3"
+    "@vanilla-extract/vite-plugin": "^4.0.7",
+    "@vitejs/plugin-react": "^4.2.1",
+    "happy-dom": "^14.7.1",
+    "msw": "^2.2.14",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.1"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
